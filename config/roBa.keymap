@@ -10,6 +10,7 @@
 
 &trackball {
     /* automouse-layer = <3>; */
+
     scroll-layers = <4>;
 
     // arrows {
@@ -86,7 +87,7 @@
 &none        &none             &none           &lt 3 ESC  &lt 2 SPACE  &lt 4 TAB         &kp BACKSPACE  &lt 2 ENTER                                             &none
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_DOWN>;
         };
 
         QWERT {
@@ -97,7 +98,7 @@
 &trans       &trans            &trans          &trans  &trans  &trans      &trans  &trans                                             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+            sensor-bindings = <&inc_dec_kp PG_DN PAGE_UP>;
         };
 
         NUM {
@@ -108,7 +109,7 @@
 &none            &none            &none            &kp ESC          &kp SPACE       &kp TAB      &kp DELETE  &kp ENTER                                                     &none
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+            sensor-bindings = <&inc_dec_kp PG_DN PAGE_UP>;
         };
 
         SYM {
