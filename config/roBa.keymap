@@ -141,6 +141,8 @@
 &kp F9        &kp F10            &kp F11          &kp F12  &none   &none       &none   &none   &none     &none          &none            &none
 &none         &none              &none            &trans   &trans  &trans      &trans  &trans                                            &none
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_DOWN>;
         };
 
         MOUSE {
